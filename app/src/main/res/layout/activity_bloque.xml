@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BloqueActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="301dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="36dp"
+        android:src="@drawable/hp_medical_logo_1587089033"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#ADADAD"
+        android:text="HP medical"
+        android:textColor="#113A69"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="348dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:text="Bloque quirurgico"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/img_tra"
+        android:layout_width="221dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/traje"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0">
+
+    </ImageView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_traje"
+        android:layout_width="222dp"
+        android:layout_height="35dp"
+        android:background="#113A69"
+        android:text="TRAJE DE BIOSEGURIDAD BLANCO"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.408" />
+
+    <ImageView
+        android:id="@+id/img_sol"
+        android:layout_width="221dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="52dp"
+
+        android:src="@drawable/solucion1l"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </ImageView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_solucion"
+        android:layout_width="222dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="56dp"
+        android:background="#113A69"
+        android:text="SOLUCION DESINFECTANTE DE ALTO NIVEL"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
