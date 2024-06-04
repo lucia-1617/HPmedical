@@ -2,6 +2,7 @@ package com.example.hpmedical
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
@@ -17,14 +18,26 @@ class CatalogoActivity : AppCompatActivity() {
             val btn_mobiliario = findViewById<AppCompatButton>(R.id.btn_mobiliario)
             btn_mobiliario.setOnClickListener {navegationToMobiliario()}
 
+            val img_mobiliario = findViewById<ImageView>(R.id.img_mob)
+            img_mobiliario.setOnClickListener {navegationToMobiliario()}
+
+            val img_bloque = findViewById<ImageView>(R.id.img_bloq)
+            img_bloque.setOnClickListener {navegationToBloque()}
+
             val btn_bloque = findViewById<AppCompatButton>(R.id.btn_bloque)
             btn_bloque.setOnClickListener {navegationToBloque()}
 
             val btn_cuidados = findViewById<AppCompatButton>(R.id.btn_cuidados)
             btn_cuidados.setOnClickListener{navegationToCuidados()}
 
+            val img_cuidados = findViewById<ImageView>(R.id.img_cui)
+            img_cuidados.setOnClickListener{navegationToCuidados()}
+
             val btn_rehabilitacion = findViewById<AppCompatButton>(R.id.btn_rehabilitacion)
             btn_rehabilitacion.setOnClickListener{navegationToRehabilitacion()}
+
+            val img_rehabilitacion = findViewById<ImageView>(R.id.img_reha)
+            img_rehabilitacion.setOnClickListener{navegationToRehabilitacion()}
 
 
         }

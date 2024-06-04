@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:background="#ADADAD"
-        android:text="HP medical"
+
         android:textColor="#113A69"
         android:textSize="32sp"
         android:textStyle="bold"
@@ -74,6 +74,7 @@
         android:layout_marginBottom="188dp"
         android:text="ALMOHADA ANATOMICA CON GEL ROSADO DE 60 X 40 X 14CM CON ESPUMA VISCOELASTICA Y FUNDA HIPOALERGENICA THERAGEL-THERAMART"
         android:textAlignment="center"
+        android:textSize="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"

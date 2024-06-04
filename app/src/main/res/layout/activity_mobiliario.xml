@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:background="#ADADAD"
-        android:text="HP medical"
+
         android:textColor="#113A69"
         android:textSize="32sp"
         android:textStyle="bold"
@@ -73,8 +73,8 @@
         android:background="#113A69"
         android:text="Almohada  anatomica con  gel"
         android:textColor="@color/white"
+        android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
@@ -105,6 +105,7 @@
         android:background="#113A69"
         android:text="Colchon antiescaras"
         android:textColor="@color/white"
+        android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.481"

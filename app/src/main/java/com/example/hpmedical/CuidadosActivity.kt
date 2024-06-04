@@ -2,6 +2,7 @@ package com.example.hpmedical
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
@@ -16,8 +17,14 @@ class CuidadosActivity : AppCompatActivity() {
         val btn_tiras = findViewById<AppCompatButton>(R.id.btn_tiras)
         btn_tiras.setOnClickListener {navegationToTiras()}
 
+        val img_tiras = findViewById<ImageView>(R.id.img_tira)
+        img_tiras.setOnClickListener {navegationToTiras()}
+
         val btn_estetoscopio = findViewById<AppCompatButton>(R.id.btn_estetoscopio)
         btn_estetoscopio.setOnClickListener {navegationToEstetoscopio()}
+
+        val img_estetoscopio = findViewById<ImageView>(R.id.img_estet)
+        img_estetoscopio.setOnClickListener {navegationToEstetoscopio()}
     }
 
     fun navegationToTiras(){

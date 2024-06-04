@@ -2,6 +2,7 @@ package com.example.hpmedical
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
@@ -16,8 +17,14 @@ class MobiliarioActivity : AppCompatActivity() {
         val btn_almohada = findViewById<AppCompatButton>(R.id.btn_almohada)
         btn_almohada.setOnClickListener {navegationToAlmohada()}
 
+        val img_almohada = findViewById<ImageView>(R.id.img_alm)
+        img_almohada.setOnClickListener {navegationToAlmohada()}
+
         val btn_colchon = findViewById<AppCompatButton>(R.id.btn_colchon)
         btn_colchon.setOnClickListener {navegationToColchon()}
+
+        val img_colchon = findViewById<ImageView>(R.id.img_col)
+        img_colchon.setOnClickListener {navegationToColchon()}
     }
 
     fun navegationToAlmohada(){

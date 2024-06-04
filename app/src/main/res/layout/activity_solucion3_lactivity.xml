@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:background="#ADADAD"
-        android:text="HP medical"
+
         android:textColor="#113A69"
         android:textSize="32sp"
         android:textStyle="bold"
@@ -73,6 +73,7 @@
         android:layout_height="90dp"
         android:text="SOLUCION DESINFECTANTE DE ALTO NIVEL DE 3.8LT CON GLUTARALDEHIDO AL 2% CON PH ALCALINO POTENCIALIZADO GLUTFAR PLUS-EUFAR"
         android:textAlignment="center"
+        android:textSize="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

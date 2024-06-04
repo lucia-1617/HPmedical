@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:background="#ADADAD"
-        android:text="HP medical"
+
         android:textColor="#113A69"
         android:textSize="32sp"
         android:textStyle="bold"
@@ -40,11 +40,11 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="348dp"
-        android:layout_height="60dp"
+        android:layout_width="346dp"
+        android:layout_height="90dp"
         android:layout_marginTop="236dp"
         android:text="Bienvenido, aqui podras encontrar los productos que necesitas"
-        android:textSize="22sp"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
