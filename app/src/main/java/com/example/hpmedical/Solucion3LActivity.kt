@@ -2,6 +2,7 @@ package com.example.hpmedical
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
@@ -18,6 +19,9 @@ class Solucion3LActivity : AppCompatActivity() {
 
         val btn_5l = findViewById<AppCompatButton>(R.id.btn_5l)
         btn_5l.setOnClickListener {navegationTo5l()}
+
+        val btn_back = findViewById<ImageButton>(R.id.btn_back)
+        btn_back.setOnClickListener {navegationToInicio()}
     }
 
     fun navegationTo1L(){
@@ -28,5 +32,10 @@ class Solucion3LActivity : AppCompatActivity() {
     fun navegationTo5l(){
         val intent18 = Intent(this, Solucion5LActivity ::class.java)
         startActivity(intent18)
+    }
+
+    fun navegationToInicio(){
+        val intent = Intent(this, MainActivity ::class.java)
+        startActivity(intent)
     }
 }

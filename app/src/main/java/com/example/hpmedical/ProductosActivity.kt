@@ -68,6 +68,6 @@ class ProductosActivity : AppCompatActivity() {
 
         fun navegationToFerula(){
         val intent39 = Intent(this, FerulaActivity ::class.java)
-        startActivity(intent39)
+        startActivity(intent39) 
     }
 }
